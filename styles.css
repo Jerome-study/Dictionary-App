@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin-inline: auto;
+   
+}
+
+
+.navline {
+    width: 30px;
+    height: 5px;
+    border: 1px solid #fff;
+    margin-bottom: 2px;
+    background-color: #fff;
+    
+}
+
+.display-menu {
+    display: block;
+}
+
+nav {
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 6rem 2rem;
+    z-index: 9999;
+    width: 46%;
+    display: none;
+}
+.nav-exit {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 2rem;
+}
+
+.navline-exit {
+    background-color: black;
+    border-color: 1px solid black;
+}
+
+.nav-list li {
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    background-color: rgb(65, 65, 255);
+}
+
+header {
+    padding: 1rem 0 1rem 0;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+#text-box {
+    border-radius: 30px;
+    border: 1px solid #000;
+    padding: 1rem .5rem;
+    position: relative;
+    text-align: center;
+    width: 90%;
+    max-width: 15rem;
+    margin-inline: auto;
+}
+
+.search-btn {
+    border-radius: 40px;
+    padding: .5rem 1rem;
+    border: 1px solid #000;
+    background-color: rgb(65, 65, 255);
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+
+}
+
+#audio button  {
+    border-radius: 50px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+}
+
+#text-audio {
+    display: flex;
+    gap: 1em;
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
+/* Typography */
+
+.title h1 {
+    color: rgb(249, 249, 249);
+}
+
+.word-details h1 {
+    text-transform: uppercase;
+}
+
+.word-details p {
+    font-weight: 400;
+    color: rgb(123, 155, 144);
+}
+
+.word-details li {
+    text-align: justify;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+

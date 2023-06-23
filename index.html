@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="#">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="navigation">
+                <div class="title">
+                    <h1>Dictionary</h1>
+                </div>
+                <nav>
+                    <ul class="nav-list">
+                        <div class="navbutton nav-exit" id="nav-exit">
+                            <div class="navline navline-exit"></div>
+                            <div class="navline navline-exit"></div>
+                            <div class="navline navline-exit"></div>
+                        </div>  
+                        <li class="nav-list-item">Home</li>
+                        <li class="nav-list-item">About</li>
+                        <li class="nav-list-item">Services</li>
+                    </ul>
+                </nav>
+                <div class="navbutton" id="nav-menu">
+                    <div class="navline"></div>
+                    <div class="navline"></div>
+                    <div class="navline"></div>
+                </div>  
+            </div>
+        </div>  
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="search-bar">
+                    
+                    <input type="text" id="text-box">
+                    <div>
+                        <button id="search-btn" class="search-btn">Search</button>
+                    </div>
+                
+            </div>
+            
+            <div class="word-details">
+                <div>
+                    <h1 id="word"></h1>
+                    <div id="text-audio">
+                        <p id="phonetics-text"></p>
+                        <div id="audio">
+
+                        </div>
+                    </div>
+                    <h3 id="part-of-speech"></h3>
+                </div>
+
+                <div>
+                    <div id="definitions">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
